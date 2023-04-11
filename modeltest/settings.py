@@ -82,6 +82,9 @@ DATABASES = {
     }
 }
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://port-0-djang-likelion-416cq2mlgby883j.sel3.cloudtype.app"
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
